@@ -37,7 +37,7 @@ class HTTP():
 
     def _req(self, url, data=None):
         # EXPERIMENTAL: humanize?
-        time.sleep(random.uniform(0.25, 0.5))
+        # time.sleep(random.uniform(0.25, 0.5))
 
         req = urllib.request.Request(url, data, headers)
 
